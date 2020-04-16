@@ -266,6 +266,12 @@ width: 100%;
 height: 100%;
 }
 
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
@@ -299,13 +305,13 @@ height: 100%;
     content: " ";
     top: 0;
     left:  0;
-    width: 109%;
+    width: 100%;
     height:  100%;
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
     max-width: 500px;
-    height: 468px;
+    height: auto;
 }
 .about-list-icon{
     display: flex;
